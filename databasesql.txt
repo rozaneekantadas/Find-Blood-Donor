@@ -1,0 +1,10 @@
+databasename = "databaseproject"
+
+Create Table Sql:
+
+Donor Info Table:
+CREATE TABLE donorinfo(id int(10), name varchar(40), email varchar(40), phone varchar(40), bloodgroup varchar(10), address text, donatedate date);
+
+Sign Up info Table:
+CREATE TABLE signupinfo(id int(10) PRIMARY KEY AUTO_INCREMENT, name varchar(30), email varchar(30), username varchar(20), password varchar(20)); 
+
